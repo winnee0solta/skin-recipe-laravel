@@ -1,0 +1,75 @@
+//
+@import "~daemonite-material/css/material.min.css";
+
+@import '~slick-carousel/slick/slick-theme.css';
+@import '~slick-carousel/slick/slick.css';
+
+//fonts
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+//variables
+$red: #cf3d3c;
+$font-poppins: "Poppins", sans-serif;
+$font-dancing: 'Dancing Script', cursive;
+
+$orange: #e27e1c;
+$orange_darken_1: #ed1e24;
+// $orange_darken_1:#e24e20;
+
+//resets
+html body {
+    height: 100% !important;
+    //  font-family: $font-poppins!important;
+}
+
+body{
+    // font-family: Cormorant,serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #838383;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden!important;
+}
+body ::selection {
+    background-color: $orange;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        text-decoration: none;
+         outline: none !important;
+    }
+    &:active {
+        text-decoration: none;
+    }
+}
+//slick slider reset
+.slick-slide {
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.card {
+    box-shadow: 0 8px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.font-poppins {
+    font-family: $font-poppins;
+}
+
+// /trash
+.trash-spacer {
+    height: 300px;
+}
+
+@import "mixin";
+@import "home";
+
+

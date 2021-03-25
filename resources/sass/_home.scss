@@ -1,0 +1,79 @@
+.navbar-section {
+    .nav-top {
+        background: black;
+        font-size: 14px;
+        color: #cecece;
+        font-style: italic;
+
+        button {
+            color: #cecece;
+            text-transform: none;
+            padding: 0px;
+            min-width: 0px !important;
+            padding-right: 10px;
+        }
+    }
+    .nav-mid {
+        padding: 20px;
+        background: white;
+        color: black;
+        &__logo {
+            font-family: $font-dancing;
+            a {
+                color: black;
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+        .search-form {
+            background: #f2f2f6;
+            padding: 5px 10px;
+
+            input {
+                width: 800px;
+                border: none !important;
+
+                @include respond(phone) {
+                    width: 80%;
+                }
+                &:hover {
+                    border: none !important;
+                    box-shadow: none;
+                }
+                &:focus {
+                    border: none !important;
+                    box-shadow: none;
+                }
+            }
+            // &-sm{
+            //     input{
+            //         width: 400px im !important;
+            //     }
+            // }
+        }
+        &__actions {
+            i {
+                color: black;
+            }
+        }
+    }
+
+    .nav-foot {
+        background: black;
+        .nav-link {
+            color: #cecece;
+            font-size: 14px;
+        }
+    }
+}
+
+
+// slider
+.slider-section{
+    .main-slider{
+        a{
+            height: 525px;
+
+        }
+    }
+}
