@@ -7,12 +7,16 @@
 //fonts
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@1&display=swap');
+
 //variables
 $red: #cf3d3c;
 $font-poppins: "Poppins", sans-serif;
 $font-dancing: 'Dancing Script', cursive;
+$font-cormorant: 'Cormorant', serif;
 
-$orange: #e27e1c;
+
+
 $orange_darken_1: #ed1e24;
 // $orange_darken_1:#e24e20;
 
@@ -23,7 +27,7 @@ html body {
 }
 
 body{
-    // font-family: Cormorant,serif;
+    font-family: Roboto,serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 23px;
@@ -33,7 +37,7 @@ body{
     overflow-x: hidden!important;
 }
 body ::selection {
-    background-color: $orange;
+    background-color:#4f4e4e    ;
     color: #fff;
 }
 a {
@@ -70,6 +74,7 @@ a {
 }
 
 @import "mixin";
+@import "footer";
 @import "home";
 
 
